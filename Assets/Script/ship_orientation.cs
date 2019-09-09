@@ -11,8 +11,8 @@ public class ship_orientation : MonoBehaviour {
 	}
 
 	void Update() {
-		//transform.LookAt(2 * transform.position - cam.transform.position);
+		transform.LookAt(2 * transform.position - cam.transform.position);
 		//transform.LookAt(2 * transform.position - new Vector3(transform.position.x, cam.transform.position.y, cam.transform.position.z));
-		transform.LookAt(2 * transform.position - new Vector3(cam.transform.position.x, transform.position.y, cam.transform.position.z));
+		//transform.LookAt(2 * transform.position - new Vector3(cam.transform.position.x, transform.position.y, cam.transform.position.z));
 	}
 }
